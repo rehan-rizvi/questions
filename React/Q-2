@@ -1,0 +1,4 @@
+Q. What are synthetic events in React?
+
+Ans. React wrapping actual events in a JavaScript wrapper. So instead of onclick, it’s something like onClick. The onclick event still fires ultimately in the browser, but it’s not what you as a programmer is actually calling.
+This sort of pattern is called a abstraction. By disconnecting the code you write from how that code actually runs allows you to inject different implementations based on what you are writing for.
