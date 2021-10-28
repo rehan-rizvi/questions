@@ -1,0 +1,3 @@
+Q. What will happen if you use setState in constructor?
+
+Ans. In React setState causes React to re-render application and update the DOM. The setState provide prevState so we can track the previous state. If we call the setState in constructor we will get error beacause in contructor component is not mounted.
