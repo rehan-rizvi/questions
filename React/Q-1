@@ -1,0 +1,5 @@
+Q. What is the difference between state and props?
+
+Ans. The state of a component is just an object that holds some information that can change during the lifetime of that component.
+Props is a special keyword in React, which refers to properties. This mainly used for passing down data from one component to another props is used to pass down data while state is used to store data.
+Basically when you change the state inside your application it’s going to re-render that section of your application. But props you can’t change them, You need to change the outside the component.
